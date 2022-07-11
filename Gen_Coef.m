@@ -1,10 +1,4 @@
 % Levinson Durbin Algorithm
-% pred_coef: [a_{P,1} a_{P,2} a_{P,3} ....... a_{P,P}]  : 
-% pred_var is 1D prediction error variance.
-% References: K. Vasudevan, “Digital Communications and Signal Processing”, Universities Press, Second edition 2010. 
-% For symbol notation: follow strictly the above book.
-% Cor_Vector: is the autocorrelation sequence [R_0; R_1; R_2; R_3](must be a column vector)
-
 function[pred_coef,pred_var,ref_coef]=Gen_Coef(Cor_Vector,prediction_depth)
 
 % initialization of prediction coefficient, error variances, reflection
