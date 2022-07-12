@@ -12,7 +12,7 @@ void auto_corr_arr(const float* arr,float* result,int N,int order);
 
 #define FRAME_SIZE 200
 
-const static float input_arr[201] = {
+static const float input_arr[201] = {
         0.000000f, 0.039979f, 0.079830f, 0.119427f, 0.158649f,
         0.197375f, 0.235496f, 0.272905f, 0.309507f, 0.345214f,
         0.379949f, 0.413644f, 0.446244f, 0.477700f, 0.507977f,
